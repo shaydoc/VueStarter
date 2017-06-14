@@ -6,10 +6,11 @@
             </div>
             <div class="panel-body">
                 <ul>
-                    <li>App Structure</li>
-                    <li>Router</li>
-                    <li>Pages</li>
-                    <li>API</li>
+                    <li><router-link to="/api">/API</router-link> - a place for ajax calls
+                    </li>
+                    <li><router-link to="/appshell">/AppShell</router-link> - a place for your page container shell </li>
+                    <li><router-link to="/pages">/Pages</router-link> - a place for .vue page components</li>
+                    <li><router-link to="/router">/Routing</router-link> - a place for linking .vue pages to route endpoints</li>
                 </ul>
             </div>
         </div>

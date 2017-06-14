@@ -13,7 +13,18 @@
                     <router-link :to="{name:'dashboard'}"><i class="fa fa-tachometer" aria-hidden="true"></i> Dashboard</router-link>
 
                 </li>
-                                
+                      <li   v-bind:class="{ 'active':this.$route.name == 'api' }">
+                                  <router-link :to="{name:'api'}"><i class="fa fa-paper-plane" aria-hidden="true"></i> API</router-link>
+                             </li>
+                              <li  v-bind:class="{ 'active':this.$route.name == 'appshell' }">
+                                  <router-link :to="{name:'appshell'}"><i class="fa fa-code" aria-hidden="true"></i> AppShell</router-link>
+                             </li>
+                              <li v-bind:class="{ 'active':this.$route.name == 'pages' }">
+                                  <router-link :to="{name:'pages'}"><i class="fa fa-book" aria-hidden="true"></i> Pages</router-link>
+                             </li>
+                              <li  v-bind:class="{ 'active':this.$route.name == 'router' }">
+                                  <router-link :to="{name:'router'}"><i class="fa fa-list" aria-hidden="true"></i> Routing</router-link>
+                             </li>           
                          
             </ul>
         </nav>
@@ -33,8 +44,10 @@
                             <li><a href="#/dashboard"><i class="fa fa-home"></i></a></li>
                             <li class="active">{{this.$route.name}}</li>
                         </ol>
-                    <transition name="component-fade" mode="out-in">                
-                        <router-view></router-view>
+                    <transition name="component-fade" mode="out-in">  
+                        <keep-alive>              
+                          <router-view></router-view>
+                        </keep-alive>
                     </transition>
                     </div>
                 </div>
