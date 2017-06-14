@@ -3,7 +3,7 @@ https://shaydoc.github.io/VueStarter
 
 ## Intro
 This app is a development environment for building web applications in VueJs.
-It features a node express proxy server for propagating api calls to an "API Layer - your backend services perhaps"
+It features a node express proxy server for propagating api calls to an **"API Layer - your backend services perhaps"**
 This also includes "Webpack Hot reloading" of the express application
 
 ## First time setup
