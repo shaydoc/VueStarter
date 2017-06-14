@@ -6,7 +6,7 @@
         <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation" v-bind:class="{'is-open':isClosed==false, 'is-closed':isClosed}" >
             <ul class="nav sidebar-nav">
                 <li class="sidebar-brand">
-                    <a href="#/dashboard">Shay Doherty
+                    <a href="#/dashboard">Vue Starter
                     </a>
                 </li>
                 <li  v-bind:class="{ 'active':this.$route.name == 'dashboard' }">

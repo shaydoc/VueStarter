@@ -9,12 +9,13 @@
 				<span class="hamb-bottom"></span>
                    </button>
                     <a class="navbar-brand visible-md visible-lg" href="/#/dashboard" style="font-family:Georgia;font-weight:200;font-size:2em;color:#fff">
-                      Shay Doherty
+                      Vue Starter
                     </a>
                    
                    
                 </div>
               <ul class="nav navbar-right top-nav hidden-xs">
+                  <li><a href="https://github.com/shaydoc/vuestarter"><i class="fa fa-github"></i></a></li>
                 <li class="dropdown" v-bind:class="{ 'open': userOpen  }">
                     <a class="dropdown-toggle" @click="toggleUser"><i class="fa fa-list"></i>  <b class="caret"></b></a>
                     <ul class="dropdown-menu">
