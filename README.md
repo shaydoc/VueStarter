@@ -14,4 +14,4 @@ npm run dev
 ## Building a release
 npm run build
 
-release is output into _WebpackScripts for shifting into main project
+release is output into _WebpackScripts 
