@@ -1,14 +1,14 @@
-# First time setup
+#First time setup
 INSTALL yarn
 npm install -g yarn
 
 INSTALL Packages
 yarn install
 
-# Running in development
+#Running in development
 npm run dev
 
-# Building a release
+#Building a release
 npm run build
 
-Release is output into _WebpackScripts 
+release is output into _WebpackScripts for shifting into main project
