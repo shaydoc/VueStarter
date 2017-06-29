@@ -6,8 +6,15 @@
                  <h3><i class="fa fa-users"></i> {{ cardTitle }}</h3> 
               </div>
               <div class="card-block">
-                  <h1>{{users}}</h1>
-                  <h3>users right now</h3>
+                  <h1>{{users}}
+                     
+                        <i style="font-size:0.5em" class="fa fa-arrow-up" v-if="transition=='green'"></i>
+                        <i style="font-size:0.5em" class="fa fa-arrow-down" v-if="transition=='red'"></i>
+                  
+                  </h1>
+                  <h3>users right now
+                  
+                  </h3>
               </div>
            </div>
         </transition>
