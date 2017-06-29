@@ -1,6 +1,6 @@
 <template>
   <div>
-    <transition v-bind:name="transition" mode="out-in" >
+    <transition appear v-bind:name="transition" mode="out-in" >
      <div class="card" v-bind:key="users">
               <div class="card-block">
                  <h3><i class="fa fa-users"></i> {{ cardTitle }}</h3> 
