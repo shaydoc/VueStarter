@@ -16,14 +16,14 @@
                  <code>
 
                     import axios from 'axios'
-                    <br/><br/>
-                    export default {<br/>
-                            //GETS<br/>
-                            getSummary(){<br/>
-                            return axios.get('api/DashboardSummary')<br/>
-                            },<br/>
+                    <br><br>
+                    export default {<br>
+                            //GETS<br>
+                            getSummary(){<br>
+                            return axios.get('api/DashboardSummary')<br>
+                            },<br>
                         
-                    }<br/>
+                    }<br>
                  </code>
             </div>
         </div>
