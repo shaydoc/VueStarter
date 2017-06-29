@@ -1,26 +1,50 @@
 <template>
     <div>
-          <div class="panel panel-primary">
-            <div class="panel-heading">
-                <h3 class="panel-title">Vue Starter Dashboard</h3>
-            </div>
-            <div class="panel-body">
-                <ul>
-                    <li><router-link to="/api">/API</router-link> - a place for ajax calls
-                    </li>
-                    <li><router-link to="/appshell">/AppShell</router-link> - a place for your page container shell </li>
-                    <li><router-link to="/pages">/Pages</router-link> - a place for .vue page components</li>
-                    <li><router-link to="/router">/Routing</router-link> - a place for linking .vue pages to route endpoints</li>
-                </ul>
-            </div>
-        </div>
+          <div class="row">
+             <div class="col-md-4">
+                 <realtime></realtime>
+             </div>
+             <div class="col-md-4">
+                   <realtime></realtime>
+             </div>
+             <div class="col-md-4">
+                    <realtime></realtime>
+             </div>
+          </div>
+           <div class="row">
+             <div class="col-md-4">
+                 <realtime></realtime>
+             </div>
+             <div class="col-md-4">
+                   <realtime></realtime>
+             </div>
+             <div class="col-md-4">
+                    <realtime></realtime>
+             </div>
+          </div>
+            <div class="row">
+             <div class="col-md-4">
+                 <realtime></realtime>
+             </div>
+             <div class="col-md-4">
+                   <realtime></realtime>
+             </div>
+             <div class="col-md-4">
+                    <realtime></realtime>
+             </div>
+          </div>
+          
     </div>
 </template>
 
 <script>
 import Api from '../Api/api.js'
+import Realtime from  '../Components/realtime.vue'
 
 export default {
+  components:{
+      realtime:Realtime
+  },
   created(){
      this.fetchData()
   },

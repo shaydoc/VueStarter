@@ -1,10 +1,10 @@
 <template>
   <div>
-          <div class="panel panel-primary">
-            <div class="panel-heading">
-                <h3 class="panel-title">Vue Starter  - /AppShell Folder</h3>
+          <div class="card">
+            <div class="card-block">
+                <h3 class="card-title">Vue Starter  - /AppShell Folder</h3>
             </div>
-            <div class="panel-body">
+            <div class="card-block">
                  <p>
                     The master theme components for the app, including top and side nav and the main content area
                  </p>

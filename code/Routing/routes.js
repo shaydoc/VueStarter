@@ -4,12 +4,14 @@ import dashboard from './../Pages/dashboard.vue'
 import api from './../Pages/api.vue'
 import appshell from './../Pages/appshell.vue'
 import pages from './../Pages/pages.vue'
+import comps from './../Pages/components.vue'
 import router from './../Pages/router.vue'
 const routes =[
     { name: 'dashboard', path: '/dashboard', component: dashboard },
     { name: 'api', path: '/api', component: api },
     { name: 'appshell', path: '/appshell', component: appshell },
     { name: 'pages', path: '/pages', component: pages },
+    { name: 'components', path: '/components', component:comps},
     { name: 'router', path: '/router', component: router },
   ]
 

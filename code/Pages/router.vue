@@ -1,10 +1,10 @@
 <template>
   <div>
-          <div class="panel panel-primary">
-            <div class="panel-heading">
-                <h3 class="panel-title">Vue Starter  - /Routing Folder</h3>
+          <div class="card">
+            <div class="card-block">
+                <h3 class="card-title">Vue Starter  - /Routing Folder</h3>
             </div>
-            <div class="panel-body">
+            <div class="card-block">
                  <p>
                      All the apps route definitions, and the vue-router initialization.
                  </p>

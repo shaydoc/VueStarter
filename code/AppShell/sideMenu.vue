@@ -12,6 +12,9 @@
                               <li class="list-group-item" v-bind:class="{ 'active':this.$route.name == 'appshell' }">
                                   <router-link :to="{name:'appshell'}"><i class="fa fa-code" aria-hidden="true"></i> AppShell</router-link>
                              </li>
+                              <li class="list-group-item" v-bind:class="{ 'active':this.$route.name == 'components' }">
+                                  <router-link :to="{name:'components'}"><i class="fa fa-archive" aria-hidden="true"></i> Components</router-link>
+                             </li>
                               <li class="list-group-item" v-bind:class="{ 'active':this.$route.name == 'pages' }">
                                   <router-link :to="{name:'pages'}"><i class="fa fa-book" aria-hidden="true"></i> Pages</router-link>
                              </li>
